@@ -1,0 +1,9 @@
+# Preface {.unnumbered}
+
+This book is a personal working reference on abstract algebra. Its purpose is
+to collect definitions, examples, proofs, interpretations, applications, and
+pedagogical observations in a form that can be revised continually.
+
+The organization follows mathematical dependencies rather than a fixed
+teaching schedule. Some chapters may remain incomplete while others develop
+into detailed expositions.

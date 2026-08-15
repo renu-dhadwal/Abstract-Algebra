@@ -1,0 +1,17 @@
+project:
+  type: book
+
+book:
+  title: "Abstract Algebra"
+  author: "Renu Dhadwal"
+  chapters:
+    - index.qmd
+    - how-to-use.qmd
+    - preliminaries.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo

@@ -1,0 +1,15 @@
+# How to Use This Book {.unnumbered}
+
+This is an evolving reference rather than a finished textbook.
+
+Each chapter may contain some or all of the following:
+
+- motivation and guiding questions;
+- definitions and notation;
+- examples and nonexamples;
+- propositions and theorems;
+- proofs and proof strategies;
+- common errors or misleading intuitions;
+- connections with other areas of mathematics;
+- pedagogical observations;
+- problems and questions for later consideration.
