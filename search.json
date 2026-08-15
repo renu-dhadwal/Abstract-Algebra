@@ -1,0 +1,82 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Abstract Algebra",
+    "section": "",
+    "text": "Preface\nThis book is a personal working reference on abstract algebra. Its purpose is to collect definitions, examples, proofs, interpretations, applications, and pedagogical observations in a form that can be revised continually.\nThe organization follows mathematical dependencies rather than a fixed teaching schedule. Some chapters may remain incomplete while others develop into detailed expositions. ## Why Abstract Algebra?\nAbstract algebra begins with a simple observation: mathematical objects that appear very different may nevertheless behave in the same way. Integers can be added, symmetries can be composed, matrices can be multiplied, and permutations can be performed successively. The objects and operations differ, but many of the resulting patterns are identical.\nThe purpose of abstraction is to identify these shared patterns. We deliberately set aside features that are irrelevant to a particular question and retain only the properties that govern the operations under study. A group, for example, does not specify whether its elements are numbers, matrices, permutations, or geometric transformations. It records the structural rules that their operation satisfies. Any theorem proved from those rules then applies simultaneously to every example satisfying them.\nThis is the central economy of abstract algebra: one argument can replace many apparently unrelated arguments. More importantly, abstraction reveals relationships that are difficult to see when each example is considered in isolation. It allows us to ask:\n\nWhen do two mathematical systems have the same structure?\nWhich properties are preserved when one system is mapped into another?\nHow can a complicated object be understood through its substructures or quotients?\nWhich features distinguish objects that otherwise appear similar?\nWhat conclusions follow from the structural axioms alone?\n\nThese questions lead to the principal ideas of the subject. Isomorphisms express structural sameness. Homomorphisms compare algebraic systems while preserving their operations. Subgroups and subrings identify smaller structures contained within larger ones. Quotient structures systematically treat certain elements as equivalent. Group actions translate symmetry into algebra, while invariants help determine what can and cannot change under a given transformation.\nAbstract algebra therefore does more than provide a language for calculation. It offers methods for classification, comparison, and proof. It can explain why certain constructions are possible, why others are impossible, and why the same phenomenon recurs in number theory, geometry, linear algebra, combinatorics, and the study of equations. Its applications to cryptography, coding theory, and computation are important, but they are consequences of the structural theory rather than its sole justification.\nThe subject is best approached through a continual movement between examples and abstraction. Concrete examples suggest definitions; definitions isolate the essential structure; general theorems are then tested and interpreted through further examples. The aim is not to move away from familiar mathematics, but to understand what its examples have in common and how far their shared structure can take us.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "how-to-use.html",
+    "href": "how-to-use.html",
+    "title": "How to Use This Book",
+    "section": "",
+    "text": "This is an evolving reference rather than a finished textbook.\nEach chapter may contain some or all of the following:\n\nmotivation and guiding questions;\ndefinitions and notation;\nexamples and nonexamples;\npropositions and theorems;\nproofs and proof strategies;\ncommon errors or misleading intuitions;\nconnections with other areas of mathematics;\npedagogical observations;\nproblems and questions for later consideration.",
+    "crumbs": [
+      "How to Use This Book"
+    ]
+  },
+  {
+    "objectID": "preliminaries.html",
+    "href": "preliminaries.html",
+    "title": "1  Preliminaries",
+    "section": "",
+    "text": "1.0.1 Order and the well-ordering principle\nThe integers are among the most familiar objects in mathematics. We learn to calculate with them long before we ask why their arithmetic has the form that it does. Familiarity, however, can conceal structure. In this chapter, we step back from calculation and examine the principles on which arithmetic in () rests.\nOur purpose is not to review elementary arithmetic. Instead, we will ask questions such as:\nThe starting point is the well-ordering principle: every nonempty set of positive integers has a least element. This apparently simple property has powerful consequences. It gives a method for proving existence, underlies mathematical induction, and leads to a proof of the Division Algorithm. The Division Algorithm, in turn, produces the Euclidean algorithm, Bézout’s identity, and much of the elementary theory of divisibility.\nCongruence modulo (n) introduces a further change of perspective. Rather than studying integers individually, we group together integers that have the same remainder upon division by (n). The resulting congruence classes form the set (/n), where addition and multiplication can be performed directly on classes. This will provide our first substantial example of a quotient construction.\nThus, the integers serve two purposes. They supply concrete examples against which later definitions can be tested, and they illustrate the process of abstraction itself: familiar operations and patterns are isolated, expressed as general principles, and then transported to new mathematical settings.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preliminaries</span>"
+    ]
+  },
+  {
+    "objectID": "preliminaries.html#divisibility",
+    "href": "preliminaries.html#divisibility",
+    "title": "1  Preliminaries",
+    "section": "1.1 Divisibility",
+    "text": "1.1 Divisibility\n\n1.1.1 Divisors and multiples\n\n\n1.1.2 Elementary properties of divisibility\n\n\n1.1.3 Units and associates in ()",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preliminaries</span>"
+    ]
+  },
+  {
+    "objectID": "preliminaries.html#the-division-algorithm",
+    "href": "preliminaries.html#the-division-algorithm",
+    "title": "1  Preliminaries",
+    "section": "1.2 The Division Algorithm",
+    "text": "1.2 The Division Algorithm\n\n1.2.1 Statement and proof\n\n\n1.2.2 Quotients and remainders",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preliminaries</span>"
+    ]
+  },
+  {
+    "objectID": "preliminaries.html#greatest-common-divisors",
+    "href": "preliminaries.html#greatest-common-divisors",
+    "title": "1  Preliminaries",
+    "section": "1.3 Greatest Common Divisors",
+    "text": "1.3 Greatest Common Divisors\n\n1.3.1 Common divisors and greatest common divisors\n\n\n1.3.2 The Euclidean algorithm\n\n\n1.3.3 Bézout’s identity\n\n\n1.3.4 Linear Diophantine equations",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preliminaries</span>"
+    ]
+  },
+  {
+    "objectID": "preliminaries.html#prime-numbers",
+    "href": "preliminaries.html#prime-numbers",
+    "title": "1  Preliminaries",
+    "section": "1.4 Prime Numbers",
+    "text": "1.4 Prime Numbers\n\n1.4.1 Primes and irreducibles\n\n\n1.4.2 Euclid’s lemma\n\n\n1.4.3 The fundamental theorem of arithmetic",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preliminaries</span>"
+    ]
+  },
+  {
+    "objectID": "preliminaries.html#congruences",
+    "href": "preliminaries.html#congruences",
+    "title": "1  Preliminaries",
+    "section": "1.5 Congruences",
+    "text": "1.5 Congruences\n\n1.5.1 Congruence modulo (n)\n\n\n1.5.2 Congruence as an equivalence relation\n\n\n1.5.3 Residue classes and quotient sets\n\n\n1.5.4 Arithmetic in (/n)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preliminaries</span>"
+    ]
+  }
+]
