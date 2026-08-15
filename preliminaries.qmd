@@ -1,8 +1,63 @@
 # Preliminaries
 
-## Sets, Functions, and Induction
+## The Integers
+The integers are among the most familiar objects in mathematics. We learn to calculate with them long before we ask why their arithmetic has the form that it does. Familiarity, however, can conceal structure. In this chapter, we step back from calculation and examine the principles on which arithmetic in (\mathbb{Z}) rests.
 
-## Equivalence Relations and Quotient Sets
+Our purpose is not to review elementary arithmetic. Instead, we will ask questions such as:
 
-## Modular Arithmetic
+* Why can every integer be divided by a positive integer to produce a unique quotient and remainder?
+* Why can a greatest common divisor always be expressed as an integer linear combination?
+* Why is factorization into primes unique?
+* What does it mean to regard two integers as the same modulo (n)?
 
+The starting point is the well-ordering principle: every nonempty set of positive integers has a least element. This apparently simple property has powerful consequences. It gives a method for proving existence, underlies mathematical induction, and leads to a proof of the Division Algorithm. The Division Algorithm, in turn, produces the Euclidean algorithm, Bézout’s identity, and much of the elementary theory of divisibility.
+
+Congruence modulo (n) introduces a further change of perspective. Rather than studying integers individually, we group together integers that have the same remainder upon division by (n). The resulting congruence classes form the set (\mathbb{Z}/n\mathbb{Z}), where addition and multiplication can be performed directly on classes. This will provide our first substantial example of a quotient construction.
+
+Thus, the integers serve two purposes. They supply concrete examples against which later definitions can be tested, and they illustrate the process of abstraction itself: familiar operations and patterns are isolated, expressed as general principles, and then transported to new mathematical settings.
+
+### Order and the well-ordering principle
+
+### Mathematical induction and strong induction
+
+## Divisibility
+
+### Divisors and multiples
+
+### Elementary properties of divisibility
+
+### Units and associates in \(\mathbb{Z}\)
+
+## The Division Algorithm
+
+### Statement and proof
+
+### Quotients and remainders
+
+## Greatest Common Divisors
+
+### Common divisors and greatest common divisors
+
+### The Euclidean algorithm
+
+### Bézout's identity
+
+### Linear Diophantine equations
+
+## Prime Numbers
+
+### Primes and irreducibles
+
+### Euclid's lemma
+
+### The fundamental theorem of arithmetic
+
+## Congruences
+
+### Congruence modulo \(n\)
+
+### Congruence as an equivalence relation
+
+### Residue classes and quotient sets
+
+### Arithmetic in \(\mathbb{Z}/n\mathbb{Z}\)
